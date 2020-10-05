@@ -1,0 +1,46 @@
+{
+    "name": "gregjpreece/yii2-phpleague-oauth2-server",
+    "description": "Yii2 Extension that wraps The PHP League's Oauth2 server implementation and Steve Rhoades' OpenID Connect plugin",
+    "keywords": [
+        "yii",
+        "yii2",
+        "extension",
+        "oauth",
+        "oauth2",
+        "openid",
+        "connect"
+    ],
+    "homepage": "https://github.com/GregJPreece/yii2-phpleague-oauth2-server",
+    "support": {
+        "issues": "https://github.com/GregJPreece/yii2-phpleague-oauth2-server/issues",
+        "source": "https://github.com/GregJPreece/yii2-phpleague-oauth2-server"
+    },
+    "type": "yii2-extension",
+    "license": "Mozilla Public License 2.0",
+    "authors": [
+        {
+            "name": "Greg J Preece",
+            "email": "greg@preece.ca"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "league/oauth2-server": "~8.1",
+        "steverhoades/oauth2-openid-connect-server": "~1.2",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GregJPreece\\OAuth2\\": "src"
+        }
+    },    
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],    
+    "config": {
+        "sort-packages": true
+    }
+}
